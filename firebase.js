@@ -24,21 +24,21 @@ import {
 
 //Esta parte debe cambiarse  por el propio firebase personal 
 
-// const firebaseConfig = {
+const firebaseConfig = {
 
-//     apiKey: "AIzaSyDmwIRUhdPFmD_iN0wS_69L8uMB6xUHHGk",
+    apiKey: "AIzaSyDmw------8uMB6xUHHGk",
 
-//     authDomain: "js-crud-a6e75.firebaseapp.com",
+    authDomain: "js-crud------.com",
 
-//     projectId: "js-crud-a6e75",
+    projectId: "js.-----6e75",
 
-//     storageBucket: "js-crud-a6e75.appspot.com",
+    storageBucket: "js-crud---pot.com",
 
-//     messagingSenderId: "299510086080",
+    messagingSenderId: "299510086080",
 
-//     appId: "1:299510086080:web:6d7a3ff67aa8139b80b025"
+    appId: "1:299510--------8139b80b025"
 
-// };
+};
 
 
 // Initialize Firebase
