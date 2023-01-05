@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+}
+
+
+body{
+   background-color: #111;
+}
+#formu-tareas{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #00c896;
+}
+
+#formu-tareas label{
+    font-size: 1.4rem;
+}
+
+#tarea-input{
+    width: 200px;
+    padding: 6px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+#descrip-tarea{
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+#btn-tarea{
+    width: 200px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #00c896;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-tarea:hover{
+    transform: translate(2px, -2px);
+    transition: .2s;
+}
+
+#contanedor-tareas{
+    width: 830px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.container_element{
+    color: white;
+    text-align: center;
+    background-color: #3b3b3b63;
+    width: 350px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #00c896;
+    border-radius: 25px;
+}
+
+.container_element h3{
+    text-transform: uppercase;
+    overflow:scroll ;
+}
+.container_element h3, p{
+    margin-bottom: 10px;
+    overflow:scroll;
+}
+
+.btn-borrar{
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #00c6cf;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-edit{
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+}
+
+
